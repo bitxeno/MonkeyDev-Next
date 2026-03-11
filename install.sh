@@ -119,7 +119,7 @@ function action_uninstall() {
     fi
 
     manage_environment "remove"
-    echo "[生命周期] 卸载完成。系统已恢复纯净状态（已安全保留 Theos 以防重下，如需彻底清除请手动 rm -rf $THEOS_PATH）。"
+    echo "[生命周期] 卸载完成。系统已恢复纯净状态。"
 }
 
 function action_update() {
